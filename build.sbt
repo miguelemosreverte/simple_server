@@ -1,8 +1,6 @@
-ThisBuild / version := "0.1.0-SNAPSHOT"
+organization := "vaporstream"
+name := "libraries"
+version := "0.1.0-SNAPSHOT"
+scalaVersion := "2.13.1"
 
-ThisBuild / scalaVersion := "2.13.8"
-
-lazy val root = (project in file("."))
-  .settings(
-    name := "ScalaTemplate"
-  )
+mainClass := Some("_2.organized.Server")
